@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n=2;
+    int arr[n]={0,1};
+    int sum=(n*(n+1))/2;
+    int Sum=0;
+    for(int i=0;i<n;i++){
+        Sum=Sum+arr[i];
+    }
+    int num=sum-Sum;
+    cout<<"The missing number is "<<num<<endl;
+    
+    return 0;
+}
